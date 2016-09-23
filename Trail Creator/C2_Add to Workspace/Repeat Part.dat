@@ -1,0 +1,16 @@
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1600 0 0 1200 13
+~ Trail `UI Desktop` `UI Desktop` \
+ `DLG_PREVIEW_POST` \
+ `file_open`
+~ Activate `file_open` `workspace_pb`
+~ Activate `file_open` `file_open`
+~ Update `file_open` `Inputname` \
+ `????`
+~ Activate `file_open` `Inputname`
+~ Activate `open_instance` `open`
+~ Activate `storage_conflicts` `OK_PushButton`
+~ Select `main_dlg_cur` `MenuBar1` \
+1  `File`
+~ Close `main_dlg_cur` `MenuBar1`

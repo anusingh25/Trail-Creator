@@ -1,0 +1,48 @@
+***Just after starting***
+!trail file version No. 1400
+!Pro/ENGINEER  TM  Wildfire 4.0  (c) 2010 by Parametric Technology Corporation  All Rights Reserved.
+***Set Working dir***
+~ Command `ProCmdSessionChangeDir` 
+~ Trail `UI Desktop` `UI Desktop` \
+ `DLG_PREVIEW_POST` \
+ `file_open`
+~ Update `file_open` `Inputname` \
+ `X:\\Model_05AUG10`
+~ Activate `file_open` `Open`
+!%CISuccessfully changed to X:\Model_05AUG10\ directory.
+***file open***
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Command `ProCmdModelOpen` 
+~ Trail `UI Desktop` `UI Desktop` \
+ `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` \
+1  `1001122011.drw`
+~ MButtonArm `main_dlg_cur` `proe_win` \
+9 927 705 0 2 1119 992 1600 1200 65798 
+~ MButtonDisarm `main_dlg_cur` `proe_win` \
+9 927 705 0 0 1119 992 1600 1200 65877 
+~ Activate `file_open` `Open`
+***Close window***
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Select `main_dlg_cur` `MenuBar1` \
+1  `File`
+~ Select `main_dlg_cur` `MenuBar1` \
+1  `View`
+~ Select `main_dlg_cur` `MenuBar1` \
+1  `Edit`
+~ Select `main_dlg_cur` `MenuBar1` \
+1  `File`
+~ Close `main_dlg_cur` `MenuBar1`
+~ Activate `main_dlg_cur` `File.psh_close_win`
+***Erase not displayed***
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Command `ProCmdModelEraseNotDisp` 
+~ MButtonArm `main_dlg_cur` `proe_win` \
+9 968 910 0 2 1119 992 1600 1200 234489 
+~ MButtonDisarm `main_dlg_cur` `proe_win` \
+9 968 910 0 0 1119 992 1600 1200 234630 
+~ Close `main_dlg_cur` `File.cb_file_erase`
+~ Activate `file_erase_nd` `ok_pb`
